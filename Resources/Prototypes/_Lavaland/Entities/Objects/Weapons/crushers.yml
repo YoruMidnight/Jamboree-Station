@@ -91,6 +91,7 @@
       types:
         Blunt: 10
         Slash: 5
+        Structural: 25
     soundHit:
       collection: MetalThud
     angle: 0
@@ -132,6 +133,7 @@
     damage:
       types:
         Blunt: 17.5
+        Structural: 60 # BIG HAMMER
     soundHit:
       collection: MetalThud
     angle: 0
@@ -181,6 +183,7 @@
     damage:
       types:
         Slash: 5
+        Structural: 10 # so you can break railings and small things etc.
     soundHit:
       collection: MetalThud
     angle: 0
@@ -217,13 +220,14 @@
     damage:
       types:
         Slash: 12.5
+        Structural: 35
     soundHit:
       collection: MetalThud
     angle: 0
     animation: WeaponArcThrust
     range: 1.6
   - type: Item
-    size: Ginormous
+    size: Large # you can put a normal machete in your backpack, why not this one
     sprite: _Lavaland/Objects/Weapons/Crushers/crusher_machete-inhands.rsi
   # too lazy to port parrying and risk a [redacted] lmao
   - type: Sharp

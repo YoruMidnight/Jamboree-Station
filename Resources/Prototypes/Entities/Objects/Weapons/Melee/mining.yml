@@ -246,6 +246,7 @@
       types:
         Blunt: 10 # Lavaland Change: no damage when unwielded2
         Slash: 5
+        Structural: 40 # ~13 hits to break 1 solid wall, 1 hit for lavaland basalt
     soundHit:
       collection: MetalThud
   - type: Wieldable
