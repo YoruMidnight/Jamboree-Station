@@ -379,6 +379,12 @@
     - ClothingNeckCloakPan
 
 - type: loadout
+  id: ClothingNeckCloakEnby
+  storage:
+    back:
+    - ClothingNeckCloakEnby
+
+- type: loadout
   id: ClothingNeckCloakTrans
   storage:
     back:
