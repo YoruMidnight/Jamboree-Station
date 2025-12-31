@@ -523,11 +523,6 @@
     shoes: ClothingShoesColorRed
 
 - type: loadout
-  id: BlueShoes
-  equipment:
-    shoes: ClothingShoesColorBlue
-
-- type: loadout
   id: YellowShoes
   equipment:
     shoes: ClothingShoesColorYellow
