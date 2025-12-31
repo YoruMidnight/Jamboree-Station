@@ -382,3 +382,11 @@ Entries:
       message: Added Animals to the Roboticist loadout!
   id: 50
   time: '2025-12-31T16:15:55.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Add
+      message: Added megaphone's to the Captain and HoS' lockers!
+    - type: Add
+      message: Added the grappling gun to the paramedic's locker!
+  id: 51
+  time: '2025-12-31T16:21:01.0000000+00:00'
