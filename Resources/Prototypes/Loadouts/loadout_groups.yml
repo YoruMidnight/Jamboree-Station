@@ -654,6 +654,7 @@
 - type: loadoutGroup
   id: LibrarianHead
   name: loadout-group-librarian-head
+  minLimit: 0
   loadouts:
   - BartenderHead #Jamboree
   - BartenderBowler #Jamboree
