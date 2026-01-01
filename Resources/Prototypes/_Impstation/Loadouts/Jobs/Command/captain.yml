@@ -67,7 +67,7 @@
 - type: loadout
   id: CaptainGloves
   equipment:
-    gloves: ClothingHandsGlovesCaptain
+    gloves: ClothingHandsGlovesCaptain #apparently needs to be here despite being a duplicate ID. just leave it be!
 
 - type: loadout
   id: CaptainFlightGloves

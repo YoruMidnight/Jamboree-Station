@@ -210,16 +210,6 @@
 
 #Jamboree
 - type: loadout
-  id: WhiteJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitColorWhite
-
-- type: loadout
-  id: WhiteJumpkirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtColorWhite
-
-- type: loadout
   id: BlackJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBlack
@@ -230,16 +220,6 @@
     jumpsuit: ClothingUniformJumpskirtColorBlack
 
 - type: loadout
-  id: RedJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitColorRed
-
-- type: loadout
-  id: RedJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtColorRed
-
-- type: loadout
   id: BlueJumpsuit
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBlue
@@ -248,16 +228,6 @@
   id: BlueJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorBlue
-
-- type: loadout
-  id: YellowJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitColorYellow
-
-- type: loadout
-  id: YellowJumpskirt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtColorYellow
 
 - type: loadout
   id: GreenJumpsuit
@@ -433,11 +403,6 @@
     gloves: ClothingHandsGlovesColorGray
 
 - type: loadout
-  id: WhiteGloves
-  equipment:
-    gloves: ClothingHandsGlovesColorWhite
-
-- type: loadout
   id: BlackGloves
   equipment:
     gloves: ClothingHandsGlovesColorBlack
@@ -461,16 +426,6 @@
   id: GreenGloves
   equipment:
     gloves: ClothingHandsGlovesColorGreen
-
-- type: loadout
-  id: OrangeGloves
-  equipment:
-    gloves: ClothingHandsGlovesColorOrange
-
-- type: loadout
-  id: PurpleGloves
-  equipment:
-    gloves: ClothingHandsGlovesColorPurple
 
 - type: loadout
   id: TealGloves
@@ -506,16 +461,6 @@
   id: BlackShoes
   equipment:
     shoes: ClothingShoesColorBlack
-
-- type: loadout
-  id: BrownShoes
-  equipment:
-    shoes: ClothingShoesColorBrown
-
-- type: loadout
-  id: WhiteShoes
-  equipment:
-    shoes: ClothingShoesColorWhite
 
 - type: loadout
   id: RedShoes
