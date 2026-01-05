@@ -486,6 +486,16 @@
   - PinkJumpskirt
   - TealJumpsuit
   - TealJumpskirt
+  - BlackElegantDress
+  - RedElegantDress
+  - GreenElegantDress
+  - BlueElegantDress
+  - PurpleElegantDress
+  - RedStripedDress
+  - GreenStripedDress
+  - CyanStripedDress
+  - PinkStripedDress
+  - OrangeStripedDress
 # Jamboree Jumpsuit changes stop prt1
   - AncientJumpsuit
   # jamboree change
@@ -609,6 +619,10 @@
   - BartenderJumpsuit
   - BartenderJumpskirt
   - BartenderJumpsuitPurple
+  - NightclubJumpsuit #funky
+  - NightclubJumpskirt #funky
+  - SeniorBartenderSuit #funky
+  - SeniorBartenderSkirt #funky
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -626,6 +640,7 @@
   minLimit: 0
   loadouts:
   - ChefHead
+  - MasterChefHead #funky
 
 - type: loadoutGroup
   id: ChefMask
@@ -640,6 +655,7 @@
   loadouts:
   - ChefJumpsuit
   - ChefJumpskirt
+  - MasterChefSuit #funky
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -650,6 +666,8 @@
   - ChefApron
   - ChefJacket
   - ChefWintercoat
+  - MasterChefJacket #funky
+  - MasterChefWintercoat #funky
 
 - type: loadoutGroup
   id: LibrarianHead
@@ -769,6 +787,15 @@
   - ChaplainNeckDragon #imp
 
 - type: loadoutGroup
+  id: ChaplainShoes #jamboree
+  name: loadout-group-chaplain-shoes
+  minLimit: 0
+  loadouts:
+  - BlackShoes
+  - ClothFootWraps #jamboree, frontier content
+  - SandalShoe #jamboree, goob content
+
+- type: loadoutGroup
   id: JanitorHead
   name: loadout-group-janitor-head
   minLimit: 0
@@ -782,6 +809,7 @@
   loadouts:
   - JanitorJumpsuit
   - JanitorJumpskirt
+  - CarpExterminator #funky
   - ServiceMJ # goob
 
 - type: loadoutGroup
@@ -858,6 +886,9 @@
   name: loadout-group-clown-mask
   loadouts:
   - ClownMask
+  - ClownDevil #funky
+  - ClownGamble #funky
+  - ClownJuggle #funky
   - ClownNose #imp
 
 - type: loadoutGroup
@@ -937,6 +968,7 @@
   - MimeMask
   - MimeMaskSad
   - MimeMaskScared
+  - MimeMaskOdd #funky
 
 - type: loadoutGroup
   id: MimeJumpsuit
@@ -1027,7 +1059,6 @@
 - type: loadoutGroup
   id: MusicianShoes
   name: loadout-group-musician-shoes
-  minLimit: 0
   loadouts:
   - BlackShoes
   - BlackHeels
@@ -1075,6 +1106,7 @@
   loadouts:
   - QuartermasterHead
   - QuartermasterBeret
+  - QuartermasterTopHat
 
 - type: loadoutGroup
   id: QuartermasterJumpsuit
@@ -1085,6 +1117,8 @@
   - QuartermasterTurtleneck
   - QuartermasterTurtleneckSkirt
   - QuartermasterFormalSuit
+  - QuartermasterFancySuit #funky
+  - QuartermasterFancySkirt #funky
   - QuartermasterMJ # goob
   - QMSummerShirt # goob
 
@@ -1248,6 +1282,11 @@
   - SeniorEngineerJumpsuit
   - SeniorEngineerJumpskirt
   - EngiMJ # goob
+  - Electrician #funky
+  - EngiTanktop #funky
+  - EngiCoveralls #funky
+  - EngiOveralls #funky
+  - EngiShirt #funky
 
 - type: loadoutGroup
   id: StationEngineerBackpack
@@ -1381,8 +1420,8 @@
   name: loadout-group-scientist-head
   minLimit: 0
   loadouts:
-  #- RoboticistCap
-  #- SkullBandana
+  - RoboticistCap #reenabled, jamboree
+  - SkullBandana # reenabled, jamboree
   - ScientificBeret
 
 - type: loadoutGroup
@@ -1398,8 +1437,10 @@
   loadouts:
   - ScientistJumpsuit
   - ScientistJumpskirt
-  #- RoboticistJumpsuit
-  #- RoboticistJumpskirt
+  - RoboticistJumpsuit #jamboree, reenabled because for SOME FUCKING REASON goob has roboticists using the scientist loadouts event though they FUCKING MADE LOADOUT GROUPS FOR THEM!!!!
+  - RoboticistJumpskirt #jamboree, reenabled
+  - InterRoboticistJumpsuit #funky
+  - InterRoboticistJumpskirt #funky
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
   - ResearchMJ # goob
@@ -1441,6 +1482,7 @@
   - LatexGloves
   - PurpleGloves
   - RobohandsGloves
+  - InterRobohandsGloves
 
 - type: loadoutGroup
   id: ScientistPDA
@@ -1705,6 +1747,7 @@
   - GreenSurgeryCap
   - PurpleSurgeryCap
   - NurseHat
+  - FaceShield #funky
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
@@ -1817,6 +1860,8 @@
   loadouts:
   - ParamedicJumpsuit
   - ParamedicJumpskirt
+  - ParamedicSpeedsuit #funky
+  - ParamedicSpeedskirt #funky
   - SeniorPhysicianJumpsuit # Goobstation
   - SeniorPhysicianJumpskirt # Goobstation
   - ParamedMJ # goob

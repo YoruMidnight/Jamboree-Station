@@ -584,7 +584,6 @@
     jumpsuit: ClothingUniformJumpsuitMilitaryColorMaroon
 
 
-
 # service jumpsuit - putting it here because frontier's only service jumpsuits are hydroponics and general lmao # goob change btw
 
 - type: loadout
@@ -592,3 +591,54 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryService
 
+# dresses, jamboree
+
+- type: loadout
+  id: BlackElegantDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBlackElegantDress
+
+- type: loadout
+  id: RedElegantDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtRedElegantDress
+
+- type: loadout
+  id: GreenElegantDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtGreenElegantDress
+
+- type: loadout
+  id: BlueElegantDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtBlueElegantDress
+
+- type: loadout
+  id: PurpleElegantDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtPurpleElegantDress
+
+- type: loadout
+  id: RedStripedDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtRedStripedDress
+
+- type: loadout
+  id: GreenStripedDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtGreenStripedDress
+
+- type: loadout
+  id: CyanStripedDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCyanStripedDress
+
+- type: loadout
+  id: PinkStripedDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtPinkStripedDress
+
+- type: loadout
+  id: OrangeStripedDress
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtOrangeStripedDress

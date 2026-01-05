@@ -155,6 +155,11 @@
   equipment:
     head: ClothingHeadNurseHat
 
+- type: loadout
+  id: FaceShield #funky
+  equipment:
+    head: ClothingHeadFaceshield
+
 
 # Jumpsuit
 - type: loadout
