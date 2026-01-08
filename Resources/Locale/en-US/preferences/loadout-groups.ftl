@@ -50,7 +50,6 @@ loadout-group-captain-outerclothing = Captain outer clothing
 loadout-group-captain-gloves = Captain gloves
 
 loadout-group-hop-head = Head of Personnel head
-loadout-group-hop-gloves = Head of Personnel gloves
 loadout-group-hop-jumpsuit = Head of Personnel jumpsuit
 loadout-group-hop-neck = Head of Personnel neck
 loadout-group-hop-backpack = Head of Personnel backpack
