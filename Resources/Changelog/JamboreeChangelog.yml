@@ -442,3 +442,13 @@ Entries:
         secret cosmetic set in one of the vending machines ;)
   id: 55
   time: '2026-01-12T00:05:25.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Remove
+      message: Removed BSO from atlas, amber, and bagel
+    - type: Tweak
+      message: Reworked NTR offices on atlas amber and bagel
+    - type: Add
+      message: Added NTR spawns to atlas amber and bagel
+  id: 56
+  time: '2026-01-15T04:33:44.0000000+00:00'
