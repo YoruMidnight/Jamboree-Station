@@ -21,7 +21,8 @@
   - Forensics
   - Defusal
   - CriminalRecords
-  - SpaceLaw # Goobstation
+  - LegalMandate #jamboree uses Legal Mandate
+#  - SpaceLaw # Jamboree, we use Legal Mandate in this household
 
 - type: guideEntry
   id: Forensics
