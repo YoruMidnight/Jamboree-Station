@@ -464,3 +464,27 @@ Entries:
         sprite is also different!
   id: 57
   time: '2026-01-15T04:35:09.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Hooliganism, if repeated, can now result in the violator being held for
+        as long as is needed. The hooligans had it coming!
+    - type: Tweak
+      message: >-
+        Hooliganism is now its own violation and no longer a line in Vandalism,
+        as it was meant to be!
+    - type: Tweak
+      message: >-
+        CMO's can now use and create narcotics/poisons outside of medbay!
+        DRUGS!!!!!!
+    - type: Tweak
+      message: >-
+        CMO's now have a proper section in the Violations, Punishments, and
+        Varieties section for writing chemical permits!
+    - type: Tweak
+      message: >-
+        Roles with round start narcotics/stimulants are no longer viable to
+        arrest! Now security stims are legal!
+  id: 58
+  time: '2026-01-21T06:27:25.0000000+00:00'
