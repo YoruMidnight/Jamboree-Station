@@ -36,6 +36,7 @@
         availableJobs:
           Captain: [ 1, 1 ]
           NanotrasenRepresentative: [ 1, 1 ] # added by jamboree
+          HeadOfPersonnel: [ 1, 1 ] #added by jamboree
 
           HeadOfSecurity: [ 1, 1 ]
           SecurityOfficer: [ 1, 2 ]
@@ -49,7 +50,13 @@
           Bartender: [ 1, 1 ]
           Botanist: [ 1, 1 ]
           Chef: [ 1, 1 ]
+          Chaplain: [ 1, 1 ] #added by jamboree
+          Lawyer: [ 1, 1 ] #added by jamboree
+          Clown: [ 1, 1 ] #added by jamboree
+          Mime: [ 1, 1 ] #added by jamboree
+          ServiceWorker: [ 2, 2 ] #added by jamboree
 
+          ChiefMedicalOfficer: [ 1, 1 ] #added by jamboree
           MedicalDoctor: [ 1, 2 ]
           Chemist: [ 1, 1 ]
           MedicalIntern: [ 1, 2 ] #jamboree - cause why no practice.
