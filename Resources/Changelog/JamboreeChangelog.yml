@@ -488,3 +488,11 @@ Entries:
         arrest! Now security stims are legal!
   id: 58
   time: '2026-01-21T06:27:25.0000000+00:00'
+- author: Bibble-B-Boop
+  changes:
+    - type: Tweak
+      message: >-
+        Added Security Cadets, Technical Assistants, Research Assistants, and
+        Medical Interns to Chibi! Finally, you can have a training arc on Chibi!
+  id: 59
+  time: '2026-01-22T04:31:56.0000000+00:00'
