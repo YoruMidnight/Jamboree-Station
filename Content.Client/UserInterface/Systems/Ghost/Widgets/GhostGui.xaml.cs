@@ -50,7 +50,6 @@ public sealed partial class GhostGui : UIWidget
     public event Action? RequestWarpsPressed;
     public event Action? ReturnToBodyPressed;
     public event Action? GhostRolesPressed;
-    public event Action? GhostBarPressed; // Goobstation - Ghost Bar
     private int _prevNumberRoles;
 
     public GhostGui()
@@ -59,8 +58,6 @@ public sealed partial class GhostGui : UIWidget
 
         TargetWindow = new GhostTargetWindow();
         RulesWindow = new GhostRespawnRulesWindow();
-
-        GhostBarWindow = new _Shitcode.UserInterface.Systems.Ghost.Controls.GhostBarRulesWindow();
 
         MouseFilter = MouseFilterMode.Ignore;
 
@@ -83,16 +80,14 @@ public sealed partial class GhostGui : UIWidget
     public void Hide()
     {
         TargetWindow.Close();
-        GhostBarWindow.Close(); // Goobstation - Ghost Bar
         Visible = false;
     }
 
     // Ghoob edit
-    public void Update(int? roles, bool? canReturnToBody, TimeSpan? timeOfDeath, float minTimeToRespawn, bool? canEnterGhostBar = true, bool? canTakeGhostRoles = true)
+    public void Update(int? roles, bool? canReturnToBody, TimeSpan? timeOfDeath, float minTimeToRespawn, bool? canTakeGhostRoles = true)
     {
         ReturnToBodyButton.Disabled = !canReturnToBody ?? true;
         // Goobstation start
-        GhostBarButton.Disabled = !canEnterGhostBar ?? true;
         GhostRolesButton.Disabled = !canTakeGhostRoles ?? true;
         // Goobstation end
         _timeOfDeath = timeOfDeath;
@@ -142,7 +137,6 @@ public sealed partial class GhostGui : UIWidget
         if (disposing)
         {
             TargetWindow.Dispose();
-            GhostBarWindow.Dispose(); // Goobstation - Ghost Bar
         }
     }
 }
