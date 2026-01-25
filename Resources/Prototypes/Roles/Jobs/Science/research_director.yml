@@ -156,8 +156,6 @@
   guides: # goobstation
   - Science
   - Command
-  - ResearchDirector SOP
-  - Science SOP
   goobcoins: 40 #Goob content
   access:
   - Research
