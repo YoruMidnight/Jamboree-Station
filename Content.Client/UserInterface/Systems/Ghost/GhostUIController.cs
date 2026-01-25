@@ -205,7 +205,6 @@ public sealed class GhostUIController : UIController, IOnSystemChanged<GhostSyst
     {
         _system?.OpenGhostRoles();
     }
-}
 
     public void OnSystemLoaded(RespawnSystem system)
     {
