@@ -43,7 +43,7 @@ public sealed partial class VehicleComponent : Component
     /// Will the vehicle move when a driver buckles
     /// </summary>
     [DataField]
-    public bool EngineRunning;
+    public bool EngineRunning = false;
 
     /// <summary>
     /// What sound to play when the driver presses the horn action (plays once)
@@ -79,7 +79,21 @@ public sealed partial class VehicleComponent : Component
     /// if the Vehicle is broken
     /// </summary>
     [DataField]
-    public bool IsBroken;
+    public bool IsBroken  = false;
+
+    // Frontier: extra fields
+    [DataField]
+    public Vector2 SouthOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 NorthOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 EastOffset = Vector2.Zero;
+
+    [DataField]
+    public Vector2 WestOffset = Vector2.Zero;
+    // End Frontier: extra fields
 
     /// <summary>
     /// The entity prototype to spawn as an overlay on the driver.
