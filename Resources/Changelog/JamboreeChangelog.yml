@@ -648,3 +648,9 @@ Entries:
         by SEVERAL minutes.
   id: 73
   time: '2026-02-05T05:50:02.0000000+00:00'
+- author: Gorse1
+  changes:
+    - type: Tweak
+      message: Reverted the time requirement increases done by upstream
+  id: 74
+  time: '2026-02-14T05:23:48.0000000+00:00'
